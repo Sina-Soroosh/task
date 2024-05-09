@@ -1,0 +1,107 @@
+.product_box {
+    margin: 1rem 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product_box .content .head ul {
+    display: flex;
+    gap: 5px;
+}
+
+.product_box .content .head ul li {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    background: #ACC294;
+    border-radius: 5px;
+}
+
+.product_box .content .head ul li span {
+    display: flex;
+}
+
+.product_box .content .image {
+    margin: 10px 0;
+}
+
+.product_box .content .image img {
+    width: 100%;
+}
+
+.product_box .content .title h4 {
+    color: #383838;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.product_box .content .details {
+    margin: 10px 0;
+}
+
+.product_box .content .details .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_box .content .details .top .score {
+    display: flex;
+    gap: 5px;
+}
+
+.product_box .content .details .top .category a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #878787;
+    background: #F5F5F5;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.product_box .content .details .top .category a .icon {
+    display: flex;
+}
+
+.product_box .content .details .bottom {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_box .content .details .bottom .add_btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #80AD01;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product_box .content .details .price {
+    text-align: left;
+}
+
+.product_box .content .details .price .discount {
+    text-decoration: line-through;
+    color: #C4C6C2;
+    font-size: 14px;
+}
+
+.product_box .content .details .price .org {
+    font-size: 15px;
+    font-weight: 600;
+    color: #80AD01;
+}
+
+.product_box .content .details .price .org .unit {
+    font-size: 12px;
+    color: #878787;
+}

@@ -1,0 +1,89 @@
+.header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    position: relative;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.header .content .icons-mobile {
+    display: none;
+}
+
+.header .content .icons-mobile ul {
+    display: flex;
+}
+
+.header .content .icons-mobile ul li {
+    cursor: pointer;
+}
+
+.header .content .menu ul {
+    display: flex;
+    gap: 15px;
+}
+
+.header .content .menu ul li a {
+    color: #6B6B6B;
+    font-size: 17px;
+}
+
+.header .content .menu ul li.active a,
+.header .content .menu ul li a:hover {
+    color: #80AD01;
+}
+
+.header .content .icons ul {
+    display: flex;
+}
+
+.header .menu-mobile {
+    padding: 16px;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    display: none;
+    overflow: hidden;
+    height: 0;
+    transition: .3s;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 102%;
+}
+
+.header .menu-mobile ul li a {
+    color: #6B6B6B;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.header .menu-mobile ul li a:hover {
+    color: #80AD01;
+}
+
+.header .menu-mobile ul li a.shop {
+    font-weight: 800;
+}
+
+@media screen and (max-width : 768px) {
+    .header .content .menu {
+        display: none;
+    }
+
+    .header .content .icons {
+        display: none;
+    }
+
+    .header .content .icons-mobile {
+        display: block;
+    }
+
+    .header .menu-mobile.active {
+        display: block;
+        height: fit-content;
+    }
+}
